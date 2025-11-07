@@ -1,18 +1,19 @@
 # 🤖 Salesforce MCP Assistant  
-### *End-to-End Salesforce Automation using MCP, FastAPI, and Streamlit*
+### End-to-End Salesforce Automation using MCP, FastAPI, and Streamlit  
 
 ---
 
-## 🚀 Overview
+## 🚀 Overview  
 
 **Salesforce MCP Assistant** is a full-stack intelligent assistant that connects to Salesforce using the **Model Context Protocol (MCP)**.  
-It lets you **query, create, and manage Salesforce records** through a **Streamlit UI** backed by a **FastAPI server**.
+It lets you query, create, and manage Salesforce records through a **Streamlit UI** backed by a **FastAPI** server.  
 
-The app follows a clean modular structure — separating the **frontend**, **backend**, and **Salesforce MCP client** — making it easy to extend with **LangChain**, **OpenAI**, or other LLMs.
+The app follows a clean modular structure — separating the frontend, backend, and Salesforce MCP client —  
+making it easy to extend with LangChain, OpenAI, or other LLMs.
 
 ---
 
-## 🧱 Project Structure
+## 🧱 Project Structure  
 
 Salesforce_MCP_Assistant/
 │
@@ -34,65 +35,69 @@ Copy code
 
 ---
 
-## ⚙️ Setup Instructions
+## ⚙️ Setup Instructions  
 
-### 1️⃣ Clone the Repository
-
+### 1️⃣ Clone the Repository  
 ```bash
 git clone https://github.com/Kartik-324/Salesforce_MCP_Assistant.git
 cd Salesforce_MCP_Assistant
 2️⃣ Create and Activate a Virtual Environment
-Windows:
-
 bash
 Copy code
 python -m venv venv
-venv\Scripts\activate
-macOS/Linux:
+venv\Scripts\activate      # Windows
+or
 
 bash
 Copy code
-source venv/bin/activate
+source venv/bin/activate   # macOS/Linux
 3️⃣ Install Dependencies
 bash
 Copy code
 pip install -r requirements.txt
-4️⃣ Setup Environment Variables
-Create a .env file in the root directory and add your credentials:
-
-bash
-Copy code
-SALESFORCE_USERNAME=your_username
-SALESFORCE_PASSWORD=your_password
-SALESFORCE_TOKEN=your_security_token
-OPENAI_API_KEY=your_openai_api_key
-5️⃣ Run the Backend (FastAPI)
+▶️ Run the Application
+🧠 Start Backend (FastAPI)
 bash
 Copy code
 cd backend
 uvicorn main:app --reload
-6️⃣ Run the Frontend (Streamlit)
+💻 Start Frontend (Streamlit)
 bash
 Copy code
-cd frontend
+cd ../frontend
 streamlit run app.py
+Once both servers are running:
+👉 Open your browser at http://localhost:8501 to access the Streamlit interface.
+
+🔍 Example Queries
+“Show me all Salesforce contacts”
+
+“List accounts with revenue above 1M”
+
+“Create account named TechCorp”
+
+“Get details of opportunities closed this month”
+
 🧩 Tech Stack
 Component	Technology
 Frontend	Streamlit
 Backend	FastAPI
-Integration	Salesforce MCP
-AI Framework	LangChain / OpenAI
+Integration	Model Context Protocol (MCP)
 Language	Python
+API Calls	Salesforce REST API
+LLM Ready	LangChain / OpenAI compatible
 
-📌 Features
-✅ End-to-end Salesforce automation via MCP
-✅ Modular architecture for scalability
-✅ Environment-based configuration for security
-✅ Easy integration with any LLM or API
-✅ Interactive Streamlit frontend
+🛡️ Environment Variables
+Make a .env file in the project root with your credentials:
 
-👨‍💻 Author
-Kartik Joshi
-🔗 GitHub Profile
-📧 Feel free to contribute or open issues!
+ini
+Copy code
+SALESFORCE_CLIENT_ID=your_client_id
+SALESFORCE_CLIENT_SECRET=your_client_secret
+SALESFORCE_USERNAME=your_username
+SALESFORCE_PASSWORD=your_password
+SALESFORCE_TOKEN=your_token
 
+🧠 Powered By
+Model Context Protocol (MCP)
+FastAPI • Streamlit • LangChain Compatible
