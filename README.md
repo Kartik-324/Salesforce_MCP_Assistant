@@ -15,23 +15,8 @@ making it easy to extend with LangChain, OpenAI, or other LLMs.
 
 ## 🧱 Project Structure  
 
-Salesforce_MCP_Assistant/
-│
-├── backend/
-│ ├── main.py # FastAPI server
-│ ├── mcp_salesforce.py # MCP wrapper to process queries
-│ └── salesforce_client.py # Salesforce MCP client implementation
-│
-├── frontend/
-│ └── app.py # Streamlit-based frontend
-│
-├── requirements.txt
-├── .gitignore
-├── README.md
-└── .env # (ignored for security)
+<pre> ```bash Salesforce_MCP_Assistant/ │ ├── backend/ │ ├── main.py # FastAPI server │ ├── mcp_salesforce.py # MCP wrapper to process queries │ └── salesforce_client.py # Salesforce MCP client implementation │ ├── frontend/ │ └── app.py # Streamlit-based frontend │ ├── requirements.txt ├── .gitignore ├── README.md └── .env # (ignored for security) ``` </pre>
 
-yaml
-Copy code
 
 ---
 
