@@ -14,6 +14,7 @@ making it easy to extend with LangChain, OpenAI, or other LLMs.
 ---
 
 ## 🧱 Project Structure  
+'''
 Salesforce_MCP_Assistant/
 │
 ├── backend/
@@ -28,7 +29,7 @@ Salesforce_MCP_Assistant/
 ├── .gitignore
 ├── README.md
 └── .env                      # (ignored for security)
-
+'''
 
 
 ---
