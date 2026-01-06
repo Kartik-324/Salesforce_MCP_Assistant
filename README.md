@@ -54,6 +54,7 @@ Copy code
 ```bash
 git clone https://github.com/Kartik-324/Salesforce_MCP_Assistant.git
 cd Salesforce_MCP_Assistant
+
 2️⃣ Create & Activate Virtual Environment
 bash
 Copy code
@@ -68,10 +69,12 @@ macOS / Linux
 bash
 Copy code
 source venv/bin/activate
+
 3️⃣ Install Dependencies
 bash
 Copy code
 pip install -r requirements.txt
+
 ▶️ Running the Application
 🧠 Start Backend (FastAPI)
 bash
