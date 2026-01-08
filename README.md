@@ -1,6 +1,12 @@
 # 🤖 Salesforce MCP Assistant  
 ### End-to-End Salesforce Automation using MCP, FastAPI, and Streamlit  
 
+
+![Salesforce MCP Assistant – Chat-based query and automation interface](https://raw.githubusercontent.com/Kartik-324/Salesforce_MCP_Assistant/9763e4319d5a89a243c41b2cb58a3e41a5684c72/Working_UI/Screenshot%202025-11-07%20094416.png)
+
+![Salesforce MCP Assistant – Salesforce data retrieval and response view](https://raw.githubusercontent.com/Kartik-324/Salesforce_MCP_Assistant/9763e4319d5a89a243c41b2cb58a3e41a5684c72/Working_UI/Screenshot%202025-11-07%20094742.png)
+
+
 ---
 
 ## 🚀 Overview  
