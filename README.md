@@ -143,3 +143,9 @@ LangChain (Optional Integration)
 
 🔐 OAuth-based authentication
 
+
+## 📄 License
+
+This project is protected under a restrictive license.
+The source code is shared for viewing and evaluation purposes only.
+Any reuse or commercial use requires explicit permission.
